@@ -1,0 +1,27 @@
+import random
+
+# Dictionary of sample questions and responses
+responses = {
+    "hello": ["Hey!", "Hello!", "Hi there!", "Hi! How can I help you?"],
+    "how are you": ["I'm good, thanks!", "Doing well, what about you?", "All systems operational!"],
+    "what is your name": ["I'm a simple AI bot.", "You can call me PyBot!"],
+    "bye": ["Goodbye!", "See you later!", "Take care!"],
+}
+
+# Function to get a response
+def get_response(user_input):
+    user_input = user_input.lower()
+    for key in responses:
+        if key in user_input:
+            return random.choice(responses[key])
+    return "Sorry, I didn't understand that."
+
+# Main loop
+print("🤖 PyBot: Hello! Type 'bye' to exit.")
+while True:
+    user_input = input("You: ")
+    if "bye" in user_input.lower():
+        print("🤖 PyBot:", random.choice(responses["bye"]))
+        break
+    response = get_response(user_input)
+    print("🤖 PyBot:", response)
