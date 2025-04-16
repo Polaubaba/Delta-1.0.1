@@ -1,22 +1,22 @@
 # Delta-1.0.1
 RFID research Based Project with basic codings. Based on Circuit Python and RP-2040 
 
-# Foobar
+# The Work is in progress
 
-Foobar is a Python library for dealing with word pluralization.
+The Whole project is based on T78, uniformed runtime system controlled. 
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Use the package manager [pip](https://links.polau.win) to install foobar.
 
 ```bash
-pip install foobar
+pip install polauda
 ```
 
 ## Usage
 
 ```python
-import foobar
+import polauda
 
 # returns 'words'
 foobar.pluralize('word')
