@@ -5,9 +5,9 @@ RFID research Based Project with basic codings. Based on Circuit Python and RP-2
 
 The Whole project is based on T78, uniformed runtime system controlled. 
 
-## Installation
+## the proposition
 
-Use the package manager [pip](https://links.polau.win) to install foobar.
+visit the [polau](https://links.polau.win) to get known links.
 
 ```bash
 pip install polauda
